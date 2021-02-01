@@ -6,7 +6,7 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
-            var number = 92;
+            var number = 200;
             //if (number==10)//eger sayı 10 ise
             //{
             //    Console.WriteLine("Numbers is 10");
@@ -15,7 +15,7 @@ namespace Conditionals
             //{
             //    Console.WriteLine("Number is 20");
             //}
-            //else// 10 değilse
+            //else// hiçbiri geçerli değilse
             //{
             //    Console.WriteLine("Number is not 10 or 20");
             //}
@@ -46,15 +46,29 @@ namespace Conditionals
             //}
 
 
-            if (number<100)
+            //if (number < 100)
+            //{
+            //    if (number >= 90 && number < 95)
+            //    {
+            //        Console.WriteLine("dogru");
+            //    }
+            //}
+            if (number >= 0 && number <= 100)
             {
-                if (number>=90&&number<95)
-                {
-                    Console.WriteLine("dogru");
-                }
+                Console.WriteLine("Number is between 0-100");
             }
+            else if (number > 100 && number <= 200)
+            {
+                Console.WriteLine("Number is between 101-200");
+            }
+            else if (number > 200 || number < 0)
+            {
+                Console.WriteLine("Number is less than 0 or greater than 200");
+            }
+
+         
         }
-        Console.ReadLine();
-        }
+
+    }
 }
-}
+

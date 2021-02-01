@@ -19,21 +19,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypesAndVariables", "TypesA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditionals\Conditionals.csproj", "{07EE124C-07E7-4339-83D5-E0A7C157355A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medhods", "Medhods\Medhods.csproj", "{05DA1F5D-150C-4213-83AA-5C0730F4FCA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medhods", "Medhods\Medhods.csproj", "{05DA1F5D-150C-4213-83AA-5C0730F4FCA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{A3818B14-D024-4E1E-BEC0-F46DCA62D7E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{A3818B14-D024-4E1E-BEC0-F46DCA62D7E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{3E02B5BA-0B04-4956-B2A8-D7F48F2153EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{3E02B5BA-0B04-4956-B2A8-D7F48F2153EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{7464529F-6D1D-41B7-9AEC-D44B4DDF9A89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{7464529F-6D1D-41B7-9AEC-D44B4DDF9A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{417D3A0A-904B-40E7-8F67-0ED72A1AA80A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{417D3A0A-904B-40E7-8F67-0ED72A1AA80A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methodlar1", "Methodlar1\Methodlar1.csproj", "{4EDFF93D-FD43-41DF-98F9-5C9E7A284495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methodlar1", "Methodlar1\Methodlar1.csproj", "{4EDFF93D-FD43-41DF-98F9-5C9E7A284495}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik2", "Matematik2\Matematik2.csproj", "{507822CD-53A7-4FFA-91EB-67A194C60549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik2", "Matematik2\Matematik2.csproj", "{507822CD-53A7-4FFA-91EB-67A194C60549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler2", "DegerVeReferansTipler2\DegerVeReferansTipler2.csproj", "{5E45A08F-F349-4307-819E-D513808A11BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler2", "DegerVeReferansTipler2\DegerVeReferansTipler2.csproj", "{5E45A08F-F349-4307-819E-D513808A11BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{33ADFD2D-4D02-4697-9150-0B50CFA93CB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{5E45A08F-F349-4307-819E-D513808A11BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E45A08F-F349-4307-819E-D513808A11BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E45A08F-F349-4307-819E-D513808A11BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33ADFD2D-4D02-4697-9150-0B50CFA93CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33ADFD2D-4D02-4697-9150-0B50CFA93CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33ADFD2D-4D02-4697-9150-0B50CFA93CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33ADFD2D-4D02-4697-9150-0B50CFA93CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
